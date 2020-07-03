@@ -1,9 +1,8 @@
-import { StatusBar } from 'expo-status-bar';
+// import { StatusBar } from 'expo-status-bar';
 import React,{useState} from 'react';
 import { StyleSheet, Text, View,Image, Linking} from 'react-native';
 import { ScrollView } from 'react-native-gesture-handler';
-// import { FlatList } from 'react-native-gesture-handler';
-// import List from 'List';
+
 
 export default function App() {
   const [details,setDetails]=useState({name:'University of Peradeniya',location:'Peradeniya,Kandy',faculties:9,officers:'Chancellor,Vice chancellor,Deans of Faculties'});
