@@ -7,6 +7,12 @@
     "version": "1.0.0",
     "assetBundlePatterns": [
       "**/*"
-    ]
+    ],
+    "description": "",
+    "android": {
+      "package": "com.reactnativeapp.unidetailsapp",
+      "versionCode": 1
+    }
+    
   }
 }
